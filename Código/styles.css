@@ -1,5 +1,27 @@
-body{
-    color: lavender;
-    background: darkslateblue;
+ /*O CSS é responsável pela parte estética do site, literalmente é aqui onde os códigos estéticos vão.*/
+body{ /*Define o estilo do corpo do site*/
+    color: lavender; /*Define a cor do texto*/
+    background: darkslateblue; /*Define a cor do fundo da página*/
+    margin: 0px; /*Define a margem do site, o padrão são 8 pixels (8px)*/
+}
+header{ /*Define o estilo do cabeçalho*/
+    border-bottom: solid 2px #feffa7; /*Border = Borda. Os valores a seguir são Solid para criar uma borda solida (ur dur), o tamanho de pixels da borda sendo *px e podendo forçar uma cor para a borda apenas colocando seu nome ou código. Por padrão se a cor não for forçada, ela usará a cor de texto padrão*/
+    /*Os códigos de cores podem ser usados tanto em formato HEX (hexadecimal), como por exemplo o branco (#FFFFFF), ou em RGB, com o branco sendo RGB (255, 255, 255) */
+    /*O border pode ter diversas variações, aí vai da pessoa testas e ver qual prefere, as variações são borde-variação*/
+    padding: 20px; /*Literalmente uma margem só que dentro da borda. O padding também tem variações, seguindo o mesmo estilo da "margin" sendo as variações padding-variação*/
+    font-size: 32px; /*Muda o tamanho da fonte*/
+    color: #feffa7;
+}
 
+section{ /*Define o estilo da sessão*/
+    background: gray;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex; /*Altera o display da página, nesse caso, da seção. display: block; deixa o página em blocos, já o display:flex; deixa a página em linhas e colunas*/
+    justify-content: center; /*Muda o alinhamento dos elementos, nesse caso, centralizando eles*/
+}
+
+/*Para chamarmos um elemento por seu "apelido" (classe), precisamos adicionar um "." antes do nome em questão*/
+.chamada-texto{
+    margin: 5%; /*Ao usar o valor em porcentagem, dizemos para o navegador que, dependendo do tamanho da janela, a margem terá um tamanho diferente, sendo proporcional ao da janela*/
 }
