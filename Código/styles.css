@@ -3,6 +3,7 @@ body{ /*Define o estilo do corpo do site*/
     color: lavender; /*Define a cor do texto*/
     background: darkslateblue; /*Define a cor do fundo da página*/
     margin: 0px; /*Define a margem do site, o padrão são 8 pixels (8px)*/
+    font-family: 'Comic Sans MS', cursive;
 }
 header{ /*Define o estilo do cabeçalho*/
     border-bottom: solid 2px #feffa7; /*Border = Borda. Os valores a seguir são Solid para criar uma borda solida (ur dur), o tamanho de pixels da borda sendo *px e podendo forçar uma cor para a borda apenas colocando seu nome ou código. Por padrão se a cor não for forçada, ela usará a cor de texto padrão*/
